@@ -1,0 +1,121 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <meta charset ="UTF-8">
+    <title>온더더씨 프로필링크</title>
+    <link href="./Haemung.png" rel="icon" >
+    <style>
+        body {
+            background-color: #1876FA;
+            font-family: asterone;
+            font-weight: bold;
+            
+        }
+
+        @font-face {
+                font-family: 'Asterone DEMO Regular';
+                font-style: normal;
+                font-weight: bold;
+                src: local('Asterone DEMO Regular'), url('Asterone DEMO.woff') format('woff');
+                }
+        
+        .title {
+            width: 300px;
+            height: 70px;  
+
+            background-image: url('./TITLE.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .profile {
+            width: 290px;
+            height: 217px;
+            margin-top: 20px;
+            background-image: url('./HMM1.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .profile:hover {
+            width: 290px;
+            height: 217px;
+            margin-top: 20px;
+            background-image: url('./HMM2.png');
+            background-position: center;
+            background-size: cover;
+        }
+
+        @media all and (min-width:320px) {
+        #wrap div{
+            width:100%;
+        }
+        }
+
+        .wrap {
+            margin: 120px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+        }
+
+
+        .wrap > a {
+            width: 270px;
+            height: 60px;
+            background-color: #FCDEEB;
+            border-radius: 50px;
+            font-size: 17px;
+
+            color: black;
+            margin-top: -4px;
+            margin-bottom: 26px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .wrap > a:hover {
+            background-color: #1845FA;
+            color: #FCDEEB;
+        }
+
+       
+
+
+        .bottom {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+
+        }
+        .bottom img {
+            width: 120px;
+            height: 25px;
+            background-position: center;
+            background-size: cover;
+        }
+
+        
+    </style>
+</head>    
+<body>
+    <div class="wrap">
+        <div class="title" title="안녕하세요 온더더씨입니다"></div>
+        <div class="profile" title="나는야 항해사 해뭉이"></div>
+        <a target="_blank" href="https://blog.naver.com/onthethesea_" title="블로그">BLOG</a>
+        <a target="_blank" href="https://grafolio.naver.com/onthethesea" title="그라폴리오">GRAFOLIO</a>
+        <div class="bottom">
+            <a target="_blank" href="https://www.instagram.com/onthethe._.sea/" title="인스타">
+                 <img src="./insta.png">
+            </a>
+         </div>
+    </div>
+    
+</body>
+</html>
